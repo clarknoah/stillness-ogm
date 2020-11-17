@@ -89,7 +89,7 @@ export default class CypherQuery {
         }
     }
 
-    getSetKey = (variable) => {
+    getSetKey(variable){
         let setKey = false;
         this.set.forEach((value, key) => {
             //console.log(value);
@@ -127,7 +127,7 @@ export default class CypherQuery {
         }
     }
 
-    assignUserRelationship = (node) => {
+    assignUserRelationship(node){
         // let label = node.labels[0];
         // if (label.startsWith("A_")) {
         //     console.log(node);

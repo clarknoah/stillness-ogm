@@ -32,7 +32,7 @@ class NodeProperties{
             }
         })
     }
-    hideProperties = ()=>{
+    hideProperties(){
         this.propertyKeys.forEach(key=>{
             this[key].edittable = false;
         })

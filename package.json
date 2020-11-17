@@ -2,9 +2,10 @@
   "name": "stillness-ogm",
   "version": "0.0.111",
   "description": "",
-  "main": "./index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx babel src --out-dir dist"
   },
   "author": "",
   "license": "ISC",
@@ -15,5 +16,10 @@
         "loose": true
       }
     ]
-  ]
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1"
+  }
 }
