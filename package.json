@@ -1,8 +1,8 @@
 {
   "name": "stillness-ogm",
-  "version": "0.0.11",
+  "version": "0.0.111",
   "description": "",
-  "main": "index.js",
+  "main": "./index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
